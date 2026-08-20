@@ -1,8 +1,8 @@
 class Boss < Formula
   desc "Just-in-time startup incubator that mentors founders from idea to venture"
-  homepage "https://github.com/ajeshh/bossbuild"
-  url "https://registry.npmjs.org/bossbuild/-/bossbuild-0.97.0.tgz"
-  sha256 "0ad80ef43726ff97e25bbd8a836d53757305611659e69bc6bf88ffae6a463ee1"
+  homepage "https://oyeboss.build"
+  url "https://registry.npmjs.org/oyeboss/-/oyeboss-0.179.0.tgz"
+  sha256 "8dec4d1b3de380a8402285f1ee2f80035d84a94cbb9a2d1259b44e9602838ba8"
   license "MIT"
 
   depends_on "node"
@@ -13,6 +13,6 @@ class Boss < Formula
   end
 
   test do
-    assert_match "0.97.0", shell_output("#{bin}/boss --version")
+    assert_match "0.179.0", shell_output("#{bin}/boss --version")
   end
 end
