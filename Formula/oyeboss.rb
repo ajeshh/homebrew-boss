@@ -1,4 +1,4 @@
-class Boss < Formula
+class Oyeboss < Formula
   desc "Just-in-time startup incubator that mentors founders from idea to venture"
   homepage "https://oyeboss.build"
   url "https://registry.npmjs.org/oyeboss/-/oyeboss-0.273.0.tgz"
